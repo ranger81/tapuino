@@ -48,8 +48,8 @@
 #define SENSE_PORT          PORTD
 #define SENSE_DDR           DDRD
 #define SENSE_PIN           5
-#define SENSE_ON()          SENSE_PORT &= ~_BV(SENSE_PIN)
-#define SENSE_OFF()         SENSE_PORT |=  _BV(SENSE_PIN)
+#define SENSE_OFF()         SENSE_PORT &= ~_BV(SENSE_PIN)
+#define SENSE_ON()          SENSE_PORT |=  _BV(SENSE_PIN)
 
 #define TAPE_READ_PORT      PORTD
 #define TAPE_READ_DDR       DDRD
